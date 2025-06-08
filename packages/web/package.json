@@ -47,7 +47,7 @@
     "prepublishOnly": "npm run build && cp ../../LICENSE.md ."
   },
   "peerDependencies": {
-    "keycloak-js": ">=9.0.2",
+   "keycloak-js": "github:vendhanmk/keycloak-jsclientauth",
     "react": ">=16.8",
     "react-dom": ">=16.8",
     "typescript": ">=3.8"
